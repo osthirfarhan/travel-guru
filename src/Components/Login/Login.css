@@ -1,0 +1,79 @@
+.login{
+  margin-top: 40px;
+ background-color: white;
+ height:100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.login__container{
+  width: 400px;
+  display: flex;
+  padding:20px;
+  border:1px solid lightgray;
+}
+
+.form__input{
+  border: none;
+  border-bottom:1px solid gray;
+  height:40px;
+  width:98%;
+  margin-bottom: 10px;
+}
+
+.login__disclaimer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.signup__disclaimer{
+  margin-top: 5px;
+  font-size:medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign__in{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__fb,.login__google{
+  height:35px;
+  width: 250px;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.fb{
+  font-size:1.5rem;
+  color:blue;
+}
+
+.create__accountBtn{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  margin-left: 5px;
+  
+}
+
+.blockBtn{
+  width: 100%;
+  border: none;
+  padding: 5px 0px;
+  margin-top: 15px;
+}
+
+.small__text{
+  font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.hotel__details:{
+  width: 400px;
+  height: 300px;
+  
+}
+.hotelDetails__imgContainer{
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hotelDetails__imgContainer img{
+  width: 230px;
+  height: 160px;
+}
