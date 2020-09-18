@@ -184,9 +184,15 @@ const Login = () => {
                       Account Created Succesfully
                     </span>
                      :
-                    <span className='small__text'> 
+                    <div>
+                      <span className='small__text'> 
                       Already have an account?
-                    </span>
+                      </span>
+                     <button 
+                      onClick={()=>setisSignUpForm(false)} className='create__accountBtn'
+                      >
+                     Login</button>
+                     </div>
                    }
               </div>
             
