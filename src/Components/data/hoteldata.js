@@ -1,5 +1,6 @@
 export const hotelFakeData=[
   { 
+    id:'911',
     category:"Cox's Bazar",
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -9,7 +10,8 @@ export const hotelFakeData=[
     price:'$34/night',
     imageUrl:"https://i.ibb.co/Xz4s8P8/Rectangle-26.png"
   },
-  {
+  { 
+    id:'912',
     category:"Cox's Bazar",
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -20,6 +22,7 @@ export const hotelFakeData=[
     imageUrl:"https://i.ibb.co/gMYLYhP/Rectangle-27.png"
   },
   {
+    id:'913',
     category:"Cox's Bazar",
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -31,6 +34,7 @@ export const hotelFakeData=[
 
   },
   {
+    id:'914',
     category:'Sreemangal',
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -41,6 +45,7 @@ export const hotelFakeData=[
     imageUrl:"https://i.ibb.co/Xz4s8P8/Rectangle-26.png"
   },
   {
+    id:'915',
     category:'Sreemangal',
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -52,6 +57,7 @@ export const hotelFakeData=[
   },
   ,
   {
+    id:'916',
     category:'Sreemangal',
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -62,6 +68,7 @@ export const hotelFakeData=[
     imageUrl:"https://i.ibb.co/gMYLYhP/Rectangle-27.png"
   },
   {
+    id:'917',
     category:"Sundarban",
     name:"Apartment in Lost panoroma",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -72,6 +79,7 @@ export const hotelFakeData=[
     imageUrl:"https://i.ibb.co/gMYLYhP/Rectangle-27.png"
   },
   {
+    id:'918',
     category:"Sundarban",
     name:"Ar Lounge & Pool",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',
@@ -83,6 +91,7 @@ export const hotelFakeData=[
   },
   ,
   {
+    id:'919',
     category:'Sundarban',
     name:"Light Bright Airy Stylish apt andsafe peaceful stay",
     bedDesc:'4 guests 2 bedrooms 2 beds 2 baths',

@@ -6,11 +6,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  
 } from "react-router-dom";
 import Home from './Components/Home/Home'
 import Login from './Components/Login/Login';
-import Header from './Components/Header/Header';
 import { useState } from 'react';
 import { createContext } from 'react';
 import PlaceDetails from './Components/PlaceDetails/PlaceDetails';
@@ -44,7 +42,6 @@ function App() {
         </Route>
         
         <Route path='/login'>
-          <Header/>
           <Login/>
         </Route>
         

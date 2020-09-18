@@ -40,12 +40,12 @@ export const googleSignIn=()=>{
     
   }
   
-export const createUserWithEmailAndPassword=(email,password)=>{
+export const createUserWithEmailAndPassword=(name,email,password)=>{
     return firebase.auth().createUserWithEmailAndPassword(email, password)
     .then(()=>{
      const newUser={
       isSignedIn:true,
-      name:'',
+      name:name,
       email:email,
       password:password,
       isCreatedNow:true,

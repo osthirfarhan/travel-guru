@@ -1,4 +1,22 @@
-.placeDetails__container
-{
-  margin-top: 00px;
+.bookingDetails{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+
+.bookingDetails__container{
+  display: flex;
+  align-items:center;
+
+}
+
+.bookingDetails__data{
+  width: 30%;
+}
+.bookingDetails__form{
+  width: 30%;
 }

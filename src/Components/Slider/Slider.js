@@ -22,7 +22,7 @@ const Slider = (props) => {
        
        <Card border="dark" style={{ width: '12rem',height:'10rem' }}>
           <Card.Img className='card__img' variant="top" src={photoUrl} />
-        <Card.Title onMouseOver={()=>handleSliderData(name)} >{name}</Card.Title>
+        <Card.Title className='card__title' onMouseOver={()=>handleSliderData(name)} >{name}</Card.Title>
        </Card>
     </Link>
   );

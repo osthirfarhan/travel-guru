@@ -1,18 +1,16 @@
-.login{
-  margin-top: 40px;
- background-color: white;
- height:100vh;
- display: flex;
- flex-direction: column;
- align-items: center;
+.container{
+  width:80%;
+  height:100vh;
+  margin-top: 30px;
 }
 
-.login__container{
-  width: 400px;
-  display: flex;
-  padding:20px;
-  border:1px solid lightgray;
+.form__container{
+  
+  padding-top: 15px;
+  border: 1px solid lightgray;
+  margin: 0 auto;
 }
+
 
 .form__input{
   border: none;
@@ -26,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  margin-top: 5px;
 }
 
 .signup__disclaimer{
@@ -36,35 +35,11 @@
   justify-content: center;
 }
 
-.sign__in{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.login__fb,.login__google{
-  height:35px;
-  width: 250px;
-  display:flex;
-  align-items:center;
-  justify-content: space-around;
-  border: 1px solid gray;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  
-}
-
-.fb{
-  font-size:1.5rem;
-  color:blue;
-}
-
 .create__accountBtn{
   border: none;
   border-bottom: 1px solid lightgray;
   background-color: white;
   margin-left: 5px;
-  
 }
 
 .blockBtn{
@@ -76,4 +51,19 @@
 
 .small__text{
   font-size: 14px;
+}
+
+.googleFbButton__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.google__Btn ,.fb__Btn{
+  width:250px;
+  border: 1px solid gray !important;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  object-fit: contain;
 }

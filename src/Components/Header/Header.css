@@ -2,6 +2,11 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  color: white;
+}
+
+.header__logo{
+  color: white;
 }
 .header__logoImage{
   width: 100px;
@@ -12,7 +17,14 @@
 }
 
 .header__nav > *{
-   margin: 0px 15px;
-   text-decoration: none;
+  
+  margin: 0px 15px;
+  text-decoration: none; 
+  color:white;
 
+}
+.user__name{
+  width: fit-content;
+  background-color: papayawhip;
+  color:palevioletred;
 }

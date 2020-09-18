@@ -1,0 +1,50 @@
+.bookingForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.bookingForm > h5{
+  font-size: small;
+  font-weight: 400;
+}
+.bookingForm__place{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.bookingForm__place > h5{
+
+  font-size: small;
+  font-weight: 600;
+  color:black;
+} 
+.bookingForm__place > input{
+  background-color:#F2F2F2;
+  font-weight: bold;
+  height: 35px;
+  border: none;
+  width: 98%;
+}
+.bookingForm > button {
+  margin-top: 20px;
+  height: 35px;
+  width: 95%;
+  background-color: #F9A51A;
+  border: none;
+}
+.bookingForm__date{
+  font-size: smaller;
+  margin-top: 15px;
+  width: 98%;
+  display: flex;
+}
+#datetime-local{
+  font-size: 12px;
+}

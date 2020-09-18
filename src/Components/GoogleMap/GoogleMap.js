@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-import { placeFakeData } from '../../placeData';
+import { placeFakeData } from '../data/placeData';
 import { UserContext } from '../../App';
 
 
@@ -14,57 +14,34 @@ const GoogleMap = (props) => {
   const [ , ,selectedPlace,setSelectdPlace]=useContext(UserContext);
   
   const [placeData,setPlaceData]=useState(placeFakeData)
-  console.log(placeData);
+  
 
   const matchedPlace=placeData.filter(place=>
         place.name===selectedPlace.toUpperCase()
     )
 
-    const [lat,long]=matchedPlace;
-    console.log(matchedPlace);
-
+    const {lat,long}=matchedPlace[0];
+    
+    const latitude=parseFloat(lat);
+    const longitude=parseFloat(long)
+    
 
   return (
     <Map
           google={props.google}
           zoom={8}
           style={mapStyles}
-          initialCenter={{ lat: {lat}, lng: {long}}}
+          initialCenter={{ lat: {latitude}, lng: {longitude}}}
 
       />
   );
 };
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk&callback'
+  apiKey: 'AIzaSyDG3ce9_Hg7lv7dKVBc45WpOD5AugzJzOQ'
 })(GoogleMap);
 
 
 
 
 
-// import React, { Component } from 'react';
-// import { Map, GoogleApiWrapper } from 'google-maps-react';
-// import placeFakeData from '../../placeData'
-
-// const mapStyles = {
-//   width: '100%',
-//   height: '80%',
-// };
-
-// class GoogleMap extends Component {
-//   render() {
-//     return (
-//       <Map
-//       google={this.props.google}
-//       zoom={8}
-//       style={mapStyles}
-//       initialCenter={{ lat: 47.444, lng: -122.176}}
-//     />
-//     );
-//   }
-// }
-
-// export default GoogleApiWrapper({
-//   apiKey: 'AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk&callback'
-// })(GoogleMap);
